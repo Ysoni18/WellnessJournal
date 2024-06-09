@@ -1,0 +1,213 @@
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+ 
+}
+
+.login {
+  background-color: #fff;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 100px 100px;
+  transition: transform 0.2s;
+  width: 150px;
+  height: 100px;
+  text-align: center;
+}
+
+h1.welcome {
+  color: #386240;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+}
+
+h2.login_as_a {
+  color: #386240;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h3 {
+  color: #386240;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#teacherButton {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#studentButton {
+  position: absolute;
+  top: 73%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  background-color: #C5D9CD;
+  border-color: #88B17F;
+  color: #386240;
+  border-width: 3px;
+  border-radius: 5px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding: 6px 12px;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #88B17F;
+  border-color: #88B17F;
+}
+
+
+
+#login-form-student {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#submit {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main {
+    background-color: #fff;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px 20px;
+    transition: transform 0.2s;
+    width: 500px;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: 1px solid;
+    border-color: #519055;
+    border-left-style: none;
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2.teacher {
+  color: #386240;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2.student {
+  color: #386240;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  color: #386240;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-image: url('https://github.com/Ysoni18/WellnessJournal/raw/main/leaves.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.past_entry{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+}
+
+.student_card { 
+  border-radius:25px;
+  height: 200px;
+  width:175px;
+  background-color: #31ab3f;
+  color: #5c605c;
+}
+textarea {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #5c605c;
+  font-size: 18px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: #8AB492;
+  border-style: inset;
+}
+
+#title {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #5c605c;
+  font-size: 18px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: #819284;
+  border-style: inset;
+  text-align: center;
+}
+.past_entries {
+  margin: 5px;
+  padding: 3px 3px;
+  text-align: center;
+}
+
+.entries {
+  color: #386240;
+  background-color: #fff;
+  margin: 10px;
+  display: inline-block;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px 10px;
+  vertical-align: middle;
+  max-width: 300px;
+  word-wrap: break-word;
+}

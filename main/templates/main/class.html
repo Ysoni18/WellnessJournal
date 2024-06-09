@@ -1,0 +1,18 @@
+{% extends 'main/main.html' %}
+{% block name %}View class{% endblock %}
+{% block content %}
+
+	<h1>Your code is: {{code}}</h1>
+
+	{% for question in queries %}
+	{% if question.number == code %}
+
+			<br>
+			<div class = "past_entries">
+		    <div class = "entries">{{question.user}}<hr>{{question.title}}<br>'{{question.text}}'<br><i>-{{question.date}}</i></div>
+		    </div>
+	{% endif %}
+	{% endfor %}
+
+{% endblock %}
+
