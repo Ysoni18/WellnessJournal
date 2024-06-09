@@ -1,0 +1,21 @@
+{% extends 'main/main.html' %}
+{% block name %}View class{% endblock %}
+{% block title %}<h1>View class</h1>{% endblock %}
+{% block content %}
+
+	<h1>Your code is: {{code}}</h1>
+	{% for question in queries %}
+	{% if question.number == code %}
+		
+		<div>
+			<p>{{question.user}}</p>
+			<p>{{question.title}}</p>
+			<p>{{question.text}}</p>
+			<p>{{question.date}}</p>
+			
+		</div>
+	{% endif %}
+	{% endfor %}
+
+{% endblock %}
+
