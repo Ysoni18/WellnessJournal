@@ -3,13 +3,13 @@
 {% block content %}
 <h2 class = "student">Sign up as a Student</h2>
 <br><br><br>
-	<form method='POST'>
+	<form method='POST' class='form-group'>
 		{% csrf_token %}
 		
 		{{form.as_p}}
 
 		<div class="wrap">
-              <button type="submit">
+              <button type="submit" class='btn btn-success>
                     Sign up
               </button>
         </div>
