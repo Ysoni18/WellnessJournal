@@ -1,0 +1,25 @@
+{% extends 'main/main.html' %}
+{% block name %}Wellness Journal{% endblock %}
+
+<body>
+  <h1>Rizz</h1>
+  {% block title %}<h1 class = "welcome">Welcome to the<br><i>Wellness Journal!</i></h1>{% endblock %}
+  
+  {% block content %}
+  <div class = "login">
+  <h2 class = "login_as_a">Login as a...</h2>
+  
+
+  
+        <br><br>
+        <button id="studentButton" class = "studentButton" onclick="location.href='{% url 'register' %}'">Student</button>
+    
+    <h3>or</h3>
+  
+    <button id= "teacherButton" class = "teacherButton" onclick="location.href='{% url 'teacher_register' %}'">Teacher</button>
+  </div>
+  {% endblock %}
+</body>
+  
+  
+</html>

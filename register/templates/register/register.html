@@ -1,0 +1,20 @@
+{% extends 'main/main.html' %}
+{% block name %}Welness Journal{% endblock %}
+{% block content %}
+<h2 class = "student">Sign up as a Student</h2>
+<br><br><br>
+	<form method='POST' class='form-group'>
+		{% csrf_token %}
+		
+		{{form.as_p}}
+
+		<div class="wrap">
+              <button type="submit">
+                    Sign up
+              </button>
+        </div>
+    <p>Teacher? <a href="/teacher_register">Sign up Here</a></p>
+		<p>already have an account?<a href="/login">Login here</a></p>
+		
+	</form>
+{% endblock %}
