@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Wellness Journal</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  
+
+<body>
+  <h1 class = "welcome">Welcome to the<br><i>Wellness Journal!</i></h1>
+
+  <div class = "login">
+  <h2 class = "login_as_a">Login as a...</h2>
+  <script src="script.js"></script>
+
+  
+    
+        <button id="studentButton" class = "studentButton" onclick="location.href='{% url 'register' %}'">Student</button>
+    
+    <h3>or</h3>
+  
+    <button id= "teacherButton" class = "teacherButton" onclick="location.href='{% url 'teacher_register' %}'">Teacher</button>
+  </div>
+</body>
+  
+  
+</html>
