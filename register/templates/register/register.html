@@ -1,0 +1,13 @@
+
+	<form method='POST' class='form-group'>
+		{% csrf_token %}
+		{{form.as_p}}
+
+		<div class="wrap">
+              <button type="submit">
+                    Sign up
+              </button>
+        </div>
+		<p>already have an account?<a href="/login">Login here</a></p>
+		<p>Teacher? <a href="/teacher_register">Sign up Here</a></p>
+	</form>
