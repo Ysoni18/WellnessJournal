@@ -3,7 +3,7 @@
 {% block content %}
 <h2 class = "student">Sign up as a Student</h2>
 <br><br><br>
-	<form method='POST' class='form-group'>
+	<form method='POST'>
 		{% csrf_token %}
 		
 		{{form.as_p}}
